@@ -33,70 +33,67 @@
     </section>
 
 
-    <div class="h2">
+    <div id="sobre" class="h2">
       <h2>Sobre mim!</h2>
     </div>
-    <section id="sobre" class="sobre-mim">
+    <section class="sobre-mim">
       <div class="habilidades"> 
-        <ul>
-          <li>Algumas coisa que sei fazer.
-            <ul>
-              <li>Tocar violão</li>
-              <li>Trabalhos no computador.</li>
-              <li>Alguns pratos, na cozinha.</li>
-              <li>Trabalhos online.</li>
-              <li>jogar videogame.</li>
-            </ul>
-          </li>
-        </ul>
+        <li>Algumas coisa que sei fazer.
+          <ul class="lista">   
+            <li>Tocar violão</li>
+            <li>Trabalhos no computador.</li>
+            <li>Alguns pratos, na cozinha.</li>
+            <li>Trabalhos online.</li>
+            <li>jogar videogame.</li>
+          </ul>
+        </li>
       </div>
 
       <div class="projetos"> 
-        <ul>
-          <li>Projetos anteriores.
-            <ul>
-              <li>Formação em História.</li>
-              <li>Curso básico de contabilidade.</li>
-              <li>Curso básico de desenho.</li>
-              <li>Curso de planejamento de empresas, no Sebrae/MG</li>
-            </ul>
-          </li>
-        </ul>
+        
+        <li>Projetos anteriores.
+          <ul class="lista">
+            <li>Formação em História.</li>
+            <li>Curso básico de contabilidade.</li>
+            <li>Curso básico de desenho.</li>
+            <li>Curso de planejamento de empresas, no Sebrae/MG</li>
+          </ul>
+        </li>
+        
       </div>
 
       <div class="proficional"> 
-        <ul>
-          <li>Exeriência profissional.
-            <ul>
-              <li>Trabalhei como auxiliar em administração na loja da minha família.</li>
-              <li>Trabalhei no cargo de dono/gerente, em uma lanchonete que já tivemos há alguns anos.</li>
-              <li>Estágio de um ano como professor de história, durante o período da facudade.</li>
-              <li>Trabalhando como Agente de Pesquisa e Mapeamento para o IBGE, pesquisando as empresas da região Centro-Sul de Belo Horizonte que estão no âmbito de pretação de Serviços.</li>
-            </ul>
-          </li>
-        </ul>
+        
+        <li>Exeriência profissional.
+          <ul class="lista">
+            <li>Trabalhei como auxiliar em administração na loja da minha família.</li>
+            <li>Trabalhei no cargo de dono/gerente, em uma lanchonete que já tivemos há alguns anos.</li>
+            <li>Estágio de um ano como professor de história, durante o período da facudade.</li>
+            <li>Trabalhando como Agente de Pesquisa e Mapeamento para o IBGE, pesquisando as empresas da região Centro-Sul de Belo Horizonte que estão no âmbito de pretação de Serviços.</li>
+          </ul>
+        </li>
       </div>
     </section>
 
     <section id="contato" class="formulario">
       <h3>Formulário</h3>
       <form>
-        <div>
+        <div class="form">
           <label for="nome">Digite o seu nome: </label>
           <input type="text" name="nome" id="nome" placeholder="Digite o seu nome" required>
         </div>
 
-        <div>
+        <div class="form">
           <label for="email">Digite o seu Email: </label>
           <input type="email" name="email" id="email" placeholder="Digite o seu Email" required>
         </div>
 
-        <div>
+        <div class="form">
           <label for="telefone">Digite o seu telefone: </label>
           <input type="tel" name="telefone" id="telefone" placeholder="Digite o seu telefone" required>
         </div>
 
-        <div>
+        <div class="form">
           <label for="comentario">Deixe o seu cometário: </label>
         </div>
         <div>
@@ -107,7 +104,9 @@
           <button type="submit" onclick="enviarFormulario()">Enviar respostas</button>
         </div>
       </form>
+    </section>
 
+    <section class="social">
       <div>
         <a href="https://whatsapp.com" target="_blank" rel="noopener">
           <img src="../image/whats.jpeg" alt="logo do whatsapp">
