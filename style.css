@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background-image: linear-gradient(105deg, rgb(100, 105, 70), rgb(150, 200, 200));
+    color: azure;
+}
+
+header {
+    background-color: #000;
+    position: sticky;
+    top: 0;
+}
+
+.cabeca {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    list-style: none;
+}
+
+.cabeca a {
+    text-decoration: none;
+    color: bisque; 
+}
+
+.bio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 30px 300px;
+    gap: 25px;
+}
+
+h1 {
+    align-items: center;
+    font-size: 48px;
+    padding-bottom: 10px;
+}
+
+.img img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin: 0px 150px;
+    width: 300px;
+}
+
+.bio p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 140%;
+}
+
+.sobre-mim {
+    display: flex;
+    justify-content: space-around;
+    background: #fff;
+    color: #000;
+    gap: 15px;
+}
+
+.h2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #fff;
+    color: #000;
+    font-size: 24px;
+    padding-top: 20px;
+}
+
+.habilidades, .projetos, .proficional {
+    display: flex;
+    margin-bottom: 10px;
+    padding: 30px;
+    font-size: 1.4rem;
+}

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ladingpage - Sobre Mim</title>
+    <link rel="stylesheet" href="style.css">
+    
+<body>
+  
+  <header>
+    <nav>
+      <ul class="cabeca">
+        <li><a href="#biografia">Biografia</a></li>
+        <li><a href="#sobre">Sobre mim</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <main>
+    <section id="biografia" class="bio">
+      <h1>Ladingpage Sobre Mim!</h1>
+      <div class="img">
+        <img src="../image/minhaimg.jpg" alt="Uma foto minha">
+      </div>
+      <p>
+        Olá, o meu nome é Douglas Nascimento, sou formado em História, porem não trabalho na área. Tenho atualmente 41 anos de idade, e estou no momento no processo de transição de carreira. <br>
+        Durante este período estou trabalhando como agente de pesquisa e, além disto, estudando programação. Do que eu já estudei até o momento devo seguir como desenvolvedor Front-End. <br>
+        Tenho também alguns robs, como ouvir musica, tocar violão e jogar jogos digitais pelo celular.  
+      </p>
+    </section>
+
+
+    <div class="h2">
+      <h2>Sobre mim!</h2>
+    </div>
+    <section id="sobre" class="sobre-mim">
+      <div class="habilidades"> 
+        <ul>
+          <li>Algumas coisa que sei fazer.
+            <ul>
+              <li>Tocar violão</li>
+              <li>Trabalhos no computador.</li>
+              <li>Alguns pratos, na cozinha.</li>
+              <li>Trabalhos online.</li>
+              <li>jogar videogame.</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+
+      <div class="projetos"> 
+        <ul>
+          <li>Projetos anteriores.
+            <ul>
+              <li>Formação em História.</li>
+              <li>Curso básico de contabilidade.</li>
+              <li>Curso básico de desenho.</li>
+              <li>Curso de planejamento de empresas, no Sebrae/MG</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+
+      <div class="proficional"> 
+        <ul>
+          <li>Exeriência profissional.
+            <ul>
+              <li>Trabalhei como auxiliar em administração na loja da minha família.</li>
+              <li>Trabalhei no cargo de dono/gerente, em uma lanchonete que já tivemos há alguns anos.</li>
+              <li>Estágio de um ano como professor de história, durante o período da facudade.</li>
+              <li>Trabalhando como Agente de Pesquisa e Mapeamento para o IBGE, pesquisando as empresas da região Centro-Sul de Belo Horizonte que estão no âmbito de pretação de Serviços.</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contato" class="formulario">
+      <h3>Formulário</h3>
+      <form>
+        <div>
+          <label for="nome">Digite o seu nome: </label>
+          <input type="text" name="nome" id="nome" placeholder="Digite o seu nome" required>
+        </div>
+
+        <div>
+          <label for="email">Digite o seu Email: </label>
+          <input type="email" name="email" id="email" placeholder="Digite o seu Email" required>
+        </div>
+
+        <div>
+          <label for="telefone">Digite o seu telefone: </label>
+          <input type="tel" name="telefone" id="telefone" placeholder="Digite o seu telefone" required>
+        </div>
+
+        <div>
+          <label for="comentario">Deixe o seu cometário: </label>
+        </div>
+        <div>
+          <textarea name="comentario" id="comentario" rows="5" cols="50" maxlength="350" placeholder="Deixe aqui a sua mensagem" required></textarea>
+        </div>
+
+        <div>
+          <button type="submit" onclick="enviarFormulario()">Enviar respostas</button>
+        </div>
+      </form>
+
+      <div>
+        <a href="https://whatsapp.com" target="_blank" rel="noopener">
+          <img src="../image/whats.jpeg" alt="logo do whatsapp">
+          <p>whatsapp</p>
+        </a>
+      </div>
+
+      <div>
+        <a href="https://github.com/Doug00777" target="_blank" rel="noopener">
+          <img src="../image/github.jpeg" alt="logo do github">
+          <p>GitHub</p>
+        </a>
+      </div>
+
+      <div>
+        <a href="https://instagram.com" target="_blank" rel="noopener">
+          <img src="../image/instagram.jpeg" alt="logo do instagram">
+          <p>Instagram</p>
+        </a>
+      </div>
+
+      <div>
+        <a href="https://likedin.com" target="_blank" rel="noopener">
+          <img src="../image/likedin.jpeg" alt="logo do likedin">
+          <p>Likedin</p>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 ladingpage Sobre Mim - Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
