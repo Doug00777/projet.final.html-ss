@@ -1,1 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
+body {
+    background-image: linear-gradient(105deg, rgb(100, 105, 70), rgb(150, 200, 200));
+    color: azure;
+}
+
+header {
+    background-color: #000;
+    position: sticky;
+    top: 0;
+}
+
+.cabeca {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    list-style: none;
+}
+
+.cabeca a {
+    text-decoration: none;
+    color: bisque; 
+}
+
+.bio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 30px 300px;
+    gap: 25px;
+}
+
+h1 {
+    align-items: center;
+    font-size: 48px;
+    padding-bottom: 30px;
+    padding-top: 50px;
+}
+
+.img img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin: 0px 150px;
+    width: 300px;
+}
+
+.bio p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 140%;
+}
+
+.sobre-mim {
+    display: flex;
+    justify-content: space-around;
+    background: #fff;
+    color: #000;
+    gap: 15px;
+    padding: 50px 0px;
+}
+
+.h2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #fff;
+    color: #000;
+    font-size: 24px;
+    padding-top: 50px;
+}
+
+.lista {
+    padding: 10px 30px;
+    color: #321;
+}
+
+.habilidades, .projetos, .proficional {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    margin-bottom: 10px;
+    padding: 30px;
+    font-size: 18px;
+    line-height: 120%;
+}
+
+.proficional {
+    width: 45%;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    margin: 20px 10%;
+    background-color: #333;
+    padding-top: 10px;
+    border-radius: 12px;
+}
+
+.formulario h3 {
+    font-size: 48px;
+}
+
+.form {
+    margin: 10px;
+    padding: 10px;
+    font-size: 24px;
+} 
+
+label {
+    padding: 10px;
+}
+
+INPUT {
+    font-size: 20px;
+    border-radius: 12px;
+    background-color: #999;
+    color: bisque;
+    padding: 10px;
+    width: 40%;
+}
+
+textarea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 70%;
+    margin: auto 15%;
+    height: 50vh;
+    border-radius: 12px;
+    background-color: #999;
+    color: bisque;
+    padding: 7px;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+button {
+    padding: 15px;
+    width: 65%;
+    margin-bottom: 10px;
+    background-color: #312;
+    color: beige;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.social {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.social img {
+    width: 80px;
+    border-radius: 50%;
+}
+
+.social a {
+    color: azure;
+    padding-top: 10px;
+    text-decoration: none;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
